@@ -1,4 +1,7 @@
-
+.container {
+  /* max-width: 960px; */
+  width: 100%;
+}
 
 .gallery {
   column-count: 3;
