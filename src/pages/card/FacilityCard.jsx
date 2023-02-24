@@ -1,5 +1,5 @@
 import React from "react";
-import "./Facilities.css";
+import "./Facility.css";
 
 const FacilityCard = (props) => {
   return (

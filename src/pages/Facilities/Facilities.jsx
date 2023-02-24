@@ -5,7 +5,7 @@ import { GiElectricalResistance } from "react-icons/gi";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { BiBuilding } from "react-icons/bi";
 import { GiThreeFriends } from "react-icons/gi";
-import FacilityCard from "./FacilityCard";
+import FacilityCard from "./../card/FacilityCard";
 import labImg from "../../assets/lab2.jpg";
 import teacherImg from "../../assets/teacher1.jpg";
 import studentImg from "../../assets/students.jpg";
@@ -20,7 +20,7 @@ const Facilities = () => {
           <Facility ico={<GiMaterialsScience />} text={"Hi-Tech Labs"} />
           <Facility ico={<FaChalkboardTeacher />} text={"Best Teachers"} />
           <Facility ico={<BiBuilding />} text={"Big Campus"} />
-          <Facility ico={<GiThreeFriends />} text={"Student Friendly"} />
+          {/* <Facility ico={<GiThreeFriends />} text={"Student Friendly"} /> */}
         </div>
         <h2 className="facilitiesHeading">Take a Look At Our Institution</h2>
         <div className="facilityCardsWrapper">
